@@ -29,7 +29,7 @@ const CASH = {
     SUPER_ADMIN_ID: 8146205072,
     SOURCE_CHAT_ID: -5025198854,
     LOG_GROUP_ID: -5121924538,
-    ADMIN_LOG_GROUP_ID: -5103725965,
+    ADMIN_LOG_GROUP_ID: -1003922029515,
     CHANNEL_ID: -1003805193452,
     CHANNEL_USERNAME: "Live22 Official",
     // NEW: FEATURE TOGGLES
@@ -133,7 +133,7 @@ async function loadConfig() {
         await load("SUPER_ADMIN_ID", 8146205072);
         await load("SOURCE_CHAT_ID", -5025198854);
         await load("LOG_GROUP_ID", -5121924538);
-        await load("ADMIN_LOG_GROUP_ID", -5103725965);
+        await load("ADMIN_LOG_GROUP_ID", -1003922029515);
         await load("CHANNEL_ID", -1003805193452);
         await load("CHANNEL_USERNAME", "Live22 Official");
         await load("forwardAdmins", []);
